@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Biendeo</Authors>
+    <Company>BlendoBot</Company>
+    <Product>BlendoBot</Product>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>BlendoBot.TestModule</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BlendoBot.TestCore" Version="1.0.5" />
+    <PackageReference Include="MinVer" Version="2.4.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
