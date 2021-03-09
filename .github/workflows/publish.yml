@@ -32,7 +32,7 @@ jobs:
         id: publish_nuget
         uses: rohith/publish-nuget@v2
         with:
-          PROJECT_FILE_PATH: TestModule\TestModule.csproj
+          PROJECT_FILE_PATH: TestModule/TestModule.csproj
           VERSION_REGEX: ^\s*<Version>(.*)<\/Version>\s*$
           NUGET_KEY: ${{secrets.NUGET_KEY}}
           TAG_COMMIT: false
