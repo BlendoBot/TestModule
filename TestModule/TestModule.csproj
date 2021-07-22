@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BlendoBot.TestCore" Version="1.0.5" />
+    <PackageReference Include="BlendoBot.TestCore" Version="1.0.7-pre.10" />
     <PackageReference Include="MinVer" Version="2.4.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
